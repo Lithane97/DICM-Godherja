@@ -136,18 +136,109 @@ DI_ethos_communal_sgui = {
     }
 }
 
-
-### heritage ###
-################
-### saielaian ###
-DI_heritage_saielaian_sgui = {
+### sorcerous ###
+DI_ethos_sorcerous_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_saielaian
+            set_culture_pillar = ethos_sorcerous
+        }
+    }
+}
+
+
+### heritage ###
+################
+### aironoian ###
+DI_heritage_aironoian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_aironoian
+        }
+    }
+}
+
+### dergi ###
+DI_heritage_dergi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_dergi
+        }
+    }
+}
+
+### iseni ###
+DI_heritage_iseni_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_iseni
+        }
+    }
+}
+
+### kherkeloi ###
+DI_heritage_kherkeloi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_kherkeloi
+        }
+    }
+}
+
+### lerrardin ###
+DI_heritage_lerrardin_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_lerrardin
+        }
+    }
+}
+
+### marndeoticeni ###
+DI_heritage_marndeoticeni_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_marndeoticeni
+        }
+    }
+}
+
+### urkarith ###
+DI_heritage_urkarith_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_urkarith
         }
     }
 }
@@ -165,15 +256,223 @@ DI_heritage_aversarian_sgui = {
     }
 }
 
-### sjalvolki ###
-DI_heritage_sjalvolki_sgui = {
+### etepezean ###
+DI_heritage_etepezean_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_sjalvolki
+            set_culture_pillar = heritage_etepezean
+        }
+    }
+}
+
+### old_imperial ###
+DI_heritage_old_imperial_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_old_imperial
+        }
+    }
+}
+
+### proto_aversarian ###
+DI_heritage_proto_aversarian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_proto_aversarian
+        }
+    }
+}
+
+### aelfir ###
+DI_heritage_aelfir_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_aelfir
+        }
+    }
+}
+
+### goan ###
+DI_heritage_goan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_goan
+        }
+    }
+}
+
+### easterner ###
+DI_heritage_easterner_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_easterner
+        }
+    }
+}
+
+### nattanan ###
+DI_heritage_nattanan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_nattanan
+        }
+    }
+}
+
+### shanxi ###
+DI_heritage_shanxi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_shanxi
+        }
+    }
+}
+
+### damotan ###
+DI_heritage_damotan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_damotan
+        }
+    }
+}
+
+### hadiyan ###
+DI_heritage_hadiyan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_hadiyan
+        }
+    }
+}
+
+### siltwalker ###
+DI_heritage_siltwalker_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_siltwalker
+        }
+    }
+}
+
+### tlakalak ###
+DI_heritage_tlakalak_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_tlakalak
+        }
+    }
+}
+
+### guillater ###
+DI_heritage_guillater_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_guillater
+        }
+    }
+}
+
+### huegodoc ###
+DI_heritage_huegodoc_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_huegodoc
+        }
+    }
+}
+
+### kardwen ###
+DI_heritage_kardwen_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_kardwen
+        }
+    }
+}
+
+### karzarad ###
+DI_heritage_karzarad_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_karzarad
+        }
+    }
+}
+
+### kartharaddi ###
+DI_heritage_kartharaddi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_kartharaddi
         }
     }
 }
@@ -187,6 +486,162 @@ DI_heritage_marcher_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = heritage_marcher
+        }
+    }
+}
+
+### sjalvolki ###
+DI_heritage_sjalvolki_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_sjalvolki
+        }
+    }
+}
+
+### kikarsag ###
+DI_heritage_kikarsag_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_kikarsag
+        }
+    }
+}
+
+### narodlek ###
+DI_heritage_narodlek_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_narodlek
+        }
+    }
+}
+
+### sarminian ###
+DI_heritage_sarminian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_sarminian
+        }
+    }
+}
+
+### vhanavid ###
+DI_heritage_vhanavid_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_vhanavid
+        }
+    }
+}
+
+### xajirkel ###
+DI_heritage_xajirkel_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_xajirkel
+        }
+    }
+}
+
+### lonely_lighter ###
+DI_heritage_lonely_lighter_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_lonely_lighter
+        }
+    }
+}
+
+### ojyczaynz ###
+DI_heritage_ojyczaynz_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_ojyczaynz
+        }
+    }
+}
+
+### canian ###
+DI_heritage_canian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_canian
+        }
+    }
+}
+
+### clanlander ###
+DI_heritage_clanlander_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_clanlander
+        }
+    }
+}
+
+### kelthiunai ###
+DI_heritage_kelthiunai_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_kelthiunai
+        }
+    }
+}
+
+### gallieni ###
+DI_heritage_gallieni_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_gallieni
         }
     }
 }
@@ -217,145 +672,54 @@ DI_heritage_konijkmener_sgui = {
     }
 }
 
-### vhanavid ###
-DI_heritage_vhanavid_sgui = {
+### opakhasian ###
+DI_heritage_opakhasian_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_vhanavid
+            set_culture_pillar = heritage_opakhasian
         }
     }
 }
 
-### kikarsag ###
-DI_heritage_kikarsag_sgui = {
+### ethylisiac ###
+DI_heritage_ethylisiac_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kikarsag
+            set_culture_pillar = heritage_ethylisiac
         }
     }
 }
 
-### sarminian ###
-DI_heritage_sarminian_sgui = {
+### kathanouxiac ###
+DI_heritage_kathanouxiac_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_sarminian
+            set_culture_pillar = heritage_kathanouxiac
         }
     }
 }
 
-### sarradonian ###
-DI_heritage_sarradonian_sgui = {
+### balarid ###
+DI_heritage_balarid_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_sarradonian
-        }
-    }
-}
-
-### damotan ###
-DI_heritage_damotan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_damotan
-        }
-    }
-}
-
-### kashiryan ###
-DI_heritage_kashiryan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kashiryan
-        }
-    }
-}
-
-### goan ###
-DI_heritage_goan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_goan
-        }
-    }
-}
-
-### dezhunic ###
-DI_heritage_dezhunic_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_dezhunic
-        }
-    }
-}
-
-### aekershaani ###
-DI_heritage_aekershaani_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_aekershaani
-        }
-    }
-}
-
-### zarasadari ###
-DI_heritage_zarasadari_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_zarasadari
-        }
-    }
-}
-
-### thyssae ###
-DI_heritage_thyssae_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_thyssae
+            set_culture_pillar = heritage_balarid
         }
     }
 }
@@ -373,80 +737,80 @@ DI_heritage_marmaladid_sgui = {
     }
 }
 
-### kosharan ###
-DI_heritage_kosharan_sgui = {
+### sarradonian ###
+DI_heritage_sarradonian_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kosharan
+            set_culture_pillar = heritage_sarradonian
         }
     }
 }
 
-### hadiyan ###
-DI_heritage_hadiyan_sgui = {
+### thyssae ###
+DI_heritage_thyssae_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_hadiyan
+            set_culture_pillar = heritage_thyssae
         }
     }
 }
 
-### partic ###
-DI_heritage_partic_sgui = {
+### kemsari ###
+DI_heritage_kemsari_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_partic
+            set_culture_pillar = heritage_kemsari
         }
     }
 }
 
-### vespartsva ###
-DI_heritage_vespartsva_sgui = {
+### zarasadari ###
+DI_heritage_zarasadari_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_vespartsva
+            set_culture_pillar = heritage_zarasadari
         }
     }
 }
 
-### rekhala ###
-DI_heritage_rekhala_sgui = {
+### azargi ###
+DI_heritage_azargi_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_rekhala
+            set_culture_pillar = heritage_azargi
         }
     }
 }
 
-### abadelos ###
-DI_heritage_abadelos_sgui = {
+### talareg ###
+DI_heritage_talareg_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_abadelos
+            set_culture_pillar = heritage_talareg
         }
     }
 }
@@ -464,6 +828,19 @@ DI_heritage_aafarzay_sgui = {
     }
 }
 
+### abadelos ###
+DI_heritage_abadelos_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_abadelos
+        }
+    }
+}
+
 ### adhata ###
 DI_heritage_adhata_sgui = {
     scope = character # Player Character
@@ -477,6 +854,19 @@ DI_heritage_adhata_sgui = {
     }
 }
 
+### aekershaani ###
+DI_heritage_aekershaani_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_aekershaani
+        }
+    }
+}
+
 ### aembarisa ###
 DI_heritage_aembarisa_sgui = {
     scope = character # Player Character
@@ -486,6 +876,19 @@ DI_heritage_aembarisa_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = heritage_aembarisa
+        }
+    }
+}
+
+### aevakori ###
+DI_heritage_aevakori_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_aevakori
         }
     }
 }
@@ -555,19 +958,6 @@ DI_heritage_arapa_sgui = {
     }
 }
 
-### aevakori ###
-DI_heritage_aevakori_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_aevakori
-        }
-    }
-}
-
 ### asariyna ###
 DI_heritage_asariyna_sgui = {
     scope = character # Player Character
@@ -577,6 +967,19 @@ DI_heritage_asariyna_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = heritage_asariyna
+        }
+    }
+}
+
+### ashkeschi ###
+DI_heritage_ashkeschi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_ashkeschi
         }
     }
 }
@@ -594,15 +997,28 @@ DI_heritage_athacaya_sgui = {
     }
 }
 
-### canian ###
-DI_heritage_canian_sgui = {
+### aupagn ###
+DI_heritage_aupagn_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_canian
+            set_culture_pillar = heritage_aupagn
+        }
+    }
+}
+
+### ayuthan ###
+DI_heritage_ayuthan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_ayuthan
         }
     }
 }
@@ -620,6 +1036,19 @@ DI_heritage_chordhan_sgui = {
     }
 }
 
+### dadkawji ###
+DI_heritage_dadkawji_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_dadkawji
+        }
+    }
+}
+
 ### daidenos ###
 DI_heritage_daidenos_sgui = {
     scope = character # Player Character
@@ -633,28 +1062,15 @@ DI_heritage_daidenos_sgui = {
     }
 }
 
-### skoronyk ###
-DI_heritage_skoronyk_sgui = {
+### daikheni ###
+DI_heritage_daikheni_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_skoronyk
-        }
-    }
-}
-
-### guillater ###
-DI_heritage_guillater_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_guillater
+            set_culture_pillar = heritage_daikheni
         }
     }
 }
@@ -698,15 +1114,28 @@ DI_heritage_dayatemi_sgui = {
     }
 }
 
-### easterner ###
-DI_heritage_easterner_sgui = {
+### dezhunic ###
+DI_heritage_dezhunic_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_easterner
+            set_culture_pillar = heritage_dezhunic
+        }
+    }
+}
+
+### dubadin ###
+DI_heritage_dubadin_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_dubadin
         }
     }
 }
@@ -724,28 +1153,15 @@ DI_heritage_emanhi_sgui = {
     }
 }
 
-### fog_eaters ###
-DI_heritage_fog_eaters_sgui = {
+### enynanthari ###
+DI_heritage_enynanthari_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_fog_eaters
-        }
-    }
-}
-
-### gallieni ###
-DI_heritage_gallieni_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_gallieni
+            set_culture_pillar = heritage_enynanthari
         }
     }
 }
@@ -763,41 +1179,54 @@ DI_heritage_haraja_sgui = {
     }
 }
 
-### huegodoc ###
-DI_heritage_huegodoc_sgui = {
+### itomka ###
+DI_heritage_itomka_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_huegodoc
+            set_culture_pillar = heritage_itomka
         }
     }
 }
 
-### karzarad ###
-DI_heritage_karzarad_sgui = {
+### jureon ###
+DI_heritage_jureon_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_karzarad
+            set_culture_pillar = heritage_jureon
         }
     }
 }
 
-### kelthiunai ###
-DI_heritage_kelthiunai_sgui = {
+### kashiryan ###
+DI_heritage_kashiryan_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kelthiunai
+            set_culture_pillar = heritage_kashiryan
+        }
+    }
+}
+
+### kevaali ###
+DI_heritage_kevaali_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_kevaali
         }
     }
 }
@@ -828,45 +1257,6 @@ DI_heritage_kharadamatian_sgui = {
     }
 }
 
-### kemsari ###
-DI_heritage_kemsari_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kemsari
-        }
-    }
-}
-
-### kherkeloi ###
-DI_heritage_kherkeloi_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kherkeloi
-        }
-    }
-}
-
-### urkarith ###
-DI_heritage_urkarith_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_urkarith
-        }
-    }
-}
-
 ### khokhuud ###
 DI_heritage_khokhuud_sgui = {
     scope = character # Player Character
@@ -880,6 +1270,32 @@ DI_heritage_khokhuud_sgui = {
     }
 }
 
+### korlacan ###
+DI_heritage_korlacan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_korlacan
+        }
+    }
+}
+
+### kosharan ###
+DI_heritage_kosharan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_kosharan
+        }
+    }
+}
+
 ### likarkho ###
 DI_heritage_likarkho_sgui = {
     scope = character # Player Character
@@ -889,6 +1305,19 @@ DI_heritage_likarkho_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = heritage_likarkho
+        }
+    }
+}
+
+### linhvuong ###
+DI_heritage_linhvuong_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_linhvuong
         }
     }
 }
@@ -932,6 +1361,32 @@ DI_heritage_mondecny_sgui = {
     }
 }
 
+### mtuwe ###
+DI_heritage_mtuwe_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_mtuwe
+        }
+    }
+}
+
+### nakahanii ###
+DI_heritage_nakahanii_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_nakahanii
+        }
+    }
+}
+
 ### oghainos ###
 DI_heritage_oghainos_sgui = {
     scope = character # Player Character
@@ -945,28 +1400,67 @@ DI_heritage_oghainos_sgui = {
     }
 }
 
-### ojyczaynz ###
-DI_heritage_ojyczaynz_sgui = {
+### ouwabadin ###
+DI_heritage_ouwabadin_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_ojyczaynz
+            set_culture_pillar = heritage_ouwabadin
         }
     }
 }
 
-### redlander ###
-DI_heritage_redlander_sgui = {
+### rekhala ###
+DI_heritage_rekhala_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_redlander
+            set_culture_pillar = heritage_rekhala
+        }
+    }
+}
+
+### sagadavian ###
+DI_heritage_sagadavian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_sagadavian
+        }
+    }
+}
+
+### mutande ###
+DI_heritage_mutande_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_mutande
+        }
+    }
+}
+
+### saielaian ###
+DI_heritage_saielaian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_saielaian
         }
     }
 }
@@ -1010,6 +1504,19 @@ DI_heritage_shamrania_sgui = {
     }
 }
 
+### skoronyk ###
+DI_heritage_skoronyk_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_skoronyk
+        }
+    }
+}
+
 ### takopara ###
 DI_heritage_takopara_sgui = {
     scope = character # Player Character
@@ -1019,6 +1526,32 @@ DI_heritage_takopara_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = heritage_takopara
+        }
+    }
+}
+
+### talome ###
+DI_heritage_talome_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_talome
+        }
+    }
+}
+
+### tanarka ###
+DI_heritage_tanarka_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = heritage_tanarka
         }
     }
 }
@@ -1036,28 +1569,28 @@ DI_heritage_theugombrian_sgui = {
     }
 }
 
-### tlakalak ###
-DI_heritage_tlakalak_sgui = {
+### tiemanam ###
+DI_heritage_tiemanam_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_tlakalak
+            set_culture_pillar = heritage_tiemanam
         }
     }
 }
 
-### xajirkel ###
-DI_heritage_xajirkel_sgui = {
+### vespartsva ###
+DI_heritage_vespartsva_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_xajirkel
+            set_culture_pillar = heritage_vespartsva
         }
     }
 }
@@ -1071,71 +1604,6 @@ DI_heritage_zanaumaures_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = heritage_zanaumaures
-        }
-    }
-}
-
-### lerrardin ###
-DI_heritage_lerrardin_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_lerrardin
-        }
-    }
-}
-
-### kevaali ###
-DI_heritage_kevaali_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kevaali
-        }
-    }
-}
-
-### nakahanii ###
-DI_heritage_nakahanii_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_nakahanii
-        }
-    }
-}
-
-### kardwen ###
-DI_heritage_kardwen_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_kardwen
-        }
-    }
-}
-
-### veparstva ###
-DI_heritage_veparstva_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_veparstva
         }
     }
 }
@@ -1166,249 +1634,41 @@ DI_heritage_cavetribe_sgui = {
     }
 }
 
-### tiemanam ###
-DI_heritage_tiemanam_sgui = {
+### fog_eaters ###
+DI_heritage_fog_eaters_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_tiemanam
+            set_culture_pillar = heritage_fog_eaters
         }
     }
 }
 
-### dubadin ###
-DI_heritage_dubadin_sgui = {
+### partic ###
+DI_heritage_partic_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_dubadin
+            set_culture_pillar = heritage_partic
         }
     }
 }
 
-### dergi ###
-DI_heritage_dergi_sgui = {
+### redlander ###
+DI_heritage_redlander_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_dergi
-        }
-    }
-}
-
-### enynanthari ###
-DI_heritage_enynanthari_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_enynanthari
-        }
-    }
-}
-
-### iseni ###
-DI_heritage_iseni_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_iseni
-        }
-    }
-}
-
-### lich ###
-DI_heritage_lich_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_lich
-        }
-    }
-}
-
-### marndeoticeni ###
-DI_heritage_marndeoticeni_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_marndeoticeni
-        }
-    }
-}
-
-### wasteland ###
-DI_heritage_wasteland_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_wasteland
-        }
-    }
-}
-
-### balarid ###
-DI_heritage_balarid_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_balarid
-        }
-    }
-}
-
-### mtuwe ###
-DI_heritage_mtuwe_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_mtuwe
-        }
-    }
-}
-
-### daikheni ###
-DI_heritage_daikheni_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_daikheni
-        }
-    }
-}
-
-### lonely_lighter ###
-DI_heritage_lonely_lighter_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_lonely_lighter
-        }
-    }
-}
-
-### clanlander ###
-DI_heritage_clanlander_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_clanlander
-        }
-    }
-}
-
-### ouwabadin ###
-DI_heritage_ouwabadin_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_ouwabadin
-        }
-    }
-}
-
-### ashkeschi ###
-DI_heritage_ashkeschi_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_ashkeschi
-        }
-    }
-}
-
-### siltwalker ###
-DI_heritage_siltwalker_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_siltwalker
-        }
-    }
-}
-
-### dadkawji ###
-DI_heritage_dadkawji_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_dadkawji
-        }
-    }
-}
-
-### sagadavian ###
-DI_heritage_sagadavian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_sagadavian
-        }
-    }
-}
-
-### narodlek ###
-DI_heritage_narodlek_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_narodlek
+            set_culture_pillar = heritage_redlander
         }
     }
 }
@@ -1426,145 +1686,41 @@ DI_heritage_bestial_sgui = {
     }
 }
 
-### aelfir ###
-DI_heritage_aelfir_sgui = {
+### lich ###
+DI_heritage_lich_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_aelfir
+            set_culture_pillar = heritage_lich
         }
     }
 }
 
-### aupagn ###
-DI_heritage_aupagn_sgui = {
+### wasteland ###
+DI_heritage_wasteland_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_aupagn
+            set_culture_pillar = heritage_wasteland
         }
     }
 }
 
-### nattanan ###
-DI_heritage_nattanan_sgui = {
+### undead ###
+DI_heritage_undead_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_nattanan
-        }
-    }
-}
-
-### korlacan ###
-DI_heritage_korlacan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_korlacan
-        }
-    }
-}
-
-### gh_dragon ###
-DI_heritage_gh_dragon_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_gh_dragon
-        }
-    }
-}
-
-### tanarka ###
-DI_heritage_tanarka_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_tanarka
-        }
-    }
-}
-
-### azargi ###
-DI_heritage_azargi_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_azargi
-        }
-    }
-}
-
-### talareg ###
-DI_heritage_talareg_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_talareg
-        }
-    }
-}
-
-### iberian ###
-DI_heritage_iberian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_iberian
-        }
-    }
-}
-
-### iranian ###
-DI_heritage_iranian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_iranian
-        }
-    }
-}
-
-### north_germanic ###
-DI_heritage_north_germanic_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = heritage_north_germanic
+            set_culture_pillar = heritage_undead
         }
     }
 }
@@ -1572,262 +1728,15 @@ DI_heritage_north_germanic_sgui = {
 
 ### Language ###
 ################
-### aversarian ###
-DI_language_aversarian_sgui = {
+### aafarzay ###
+DI_language_aafarzay_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_aversarian
-        }
-    }
-}
-
-### kholmvolki ###
-DI_language_kholmvolki_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_kholmvolki
-        }
-    }
-}
-
-### rekvolki ###
-DI_language_rekvolki_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_rekvolki
-        }
-    }
-}
-
-### marcher ###
-DI_language_marcher_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_marcher
-        }
-    }
-}
-
-### damotan ###
-DI_language_damotan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_damotan
-        }
-    }
-}
-
-### goan ###
-DI_language_goan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_goan
-        }
-    }
-}
-
-### dezhunic ###
-DI_language_dezhunic_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_dezhunic
-        }
-    }
-}
-
-### aekershaani ###
-DI_language_aekershaani_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_aekershaani
-        }
-    }
-}
-
-### arapa ###
-DI_language_arapa_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_arapa
-        }
-    }
-}
-
-### amsari ###
-DI_language_amsari_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_amsari
-        }
-    }
-}
-
-### sarth ###
-DI_language_sarth_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_sarth
-        }
-    }
-}
-
-### siral ###
-DI_language_siral_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_siral
-        }
-    }
-}
-
-### thyssaen ###
-DI_language_thyssaen_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_thyssaen
-        }
-    }
-}
-
-### hixite ###
-DI_language_hixite_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_hixite
-        }
-    }
-}
-
-### thalite ###
-DI_language_thalite_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_thalite
-        }
-    }
-}
-
-### marmaladid ###
-DI_language_marmaladid_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_marmaladid
-        }
-    }
-}
-
-### koshar ###
-DI_language_koshar_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_koshar
-        }
-    }
-}
-
-### ojyczayn ###
-DI_language_ojyczayn_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_ojyczayn
-        }
-    }
-}
-
-### rivarisian ###
-DI_language_rivarisian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_rivarisian
-        }
-    }
-}
-
-### vhanavid ###
-DI_language_vhanavid_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_vhanavid
+            set_culture_pillar = language_aafarzay
         }
     }
 }
@@ -1845,67 +1754,54 @@ DI_language_abadelos_sgui = {
     }
 }
 
-### partic ###
-DI_language_partic_sgui = {
+### adhata ###
+DI_language_adhata_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_partic
+            set_culture_pillar = language_adhata
         }
     }
 }
 
-### vespartsva ###
-DI_language_vespartsva_sgui = {
+### aekershaani ###
+DI_language_aekershaani_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_vespartsva
+            set_culture_pillar = language_aekershaani
         }
     }
 }
 
-### sycharceg ###
-DI_language_sycharceg_sgui = {
+### aelfir ###
+DI_language_aelfir_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_sycharceg
+            set_culture_pillar = language_aelfir
         }
     }
 }
 
-### rekhala ###
-DI_language_rekhala_sgui = {
+### aembarisa ###
+DI_language_aembarisa_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_rekhala
-        }
-    }
-}
-
-### aafarzay ###
-DI_language_aafarzay_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_aafarzay
+            set_culture_pillar = language_aembarisa
         }
     }
 }
@@ -1962,15 +1858,28 @@ DI_language_agnala_sgui = {
     }
 }
 
-### kardwen ###
-DI_language_kardwen_sgui = {
+### amaghvelian ###
+DI_language_amaghvelian_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_kardwen
+            set_culture_pillar = language_amaghvelian
+        }
+    }
+}
+
+### amsari ###
+DI_language_amsari_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_amsari
         }
     }
 }
@@ -1988,6 +1897,71 @@ DI_language_anandrasi_sgui = {
     }
 }
 
+### arapa ###
+DI_language_arapa_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_arapa
+        }
+    }
+}
+
+### ardothanes ###
+DI_language_ardothanes_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_ardothanes
+        }
+    }
+}
+
+### asariyna ###
+DI_language_asariyna_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_asariyna
+        }
+    }
+}
+
+### ashkeschi ###
+DI_language_ashkeschi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_ashkeschi
+        }
+    }
+}
+
+### astilik ###
+DI_language_astilik_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_astilik
+        }
+    }
+}
+
 ### athacaya ###
 DI_language_athacaya_sgui = {
     scope = character # Player Character
@@ -1997,6 +1971,71 @@ DI_language_athacaya_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_athacaya
+        }
+    }
+}
+
+### aupfovla ###
+DI_language_aupfovla_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_aupfovla
+        }
+    }
+}
+
+### aygaeri ###
+DI_language_aygaeri_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_aygaeri
+        }
+    }
+}
+
+### ayuthan ###
+DI_language_ayuthan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_ayuthan
+        }
+    }
+}
+
+### azargi ###
+DI_language_azargi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_azargi
+        }
+    }
+}
+
+### bricotaves ###
+DI_language_bricotaves_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_bricotaves
         }
     }
 }
@@ -2040,6 +2079,32 @@ DI_language_chordhan_sgui = {
     }
 }
 
+### corvosnari ###
+DI_language_corvosnari_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_corvosnari
+        }
+    }
+}
+
+### dadkawji ###
+DI_language_dadkawji_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_dadkawji
+        }
+    }
+}
+
 ### daidenos ###
 DI_language_daidenos_sgui = {
     scope = character # Player Character
@@ -2053,28 +2118,28 @@ DI_language_daidenos_sgui = {
     }
 }
 
-### skoronyk ###
-DI_language_skoronyk_sgui = {
+### dakari ###
+DI_language_dakari_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_skoronyk
+            set_culture_pillar = language_dakari
         }
     }
 }
 
-### guillater ###
-DI_language_guillater_sgui = {
+### damotan ###
+DI_language_damotan_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_guillater
+            set_culture_pillar = language_damotan
         }
     }
 }
@@ -2118,6 +2183,58 @@ DI_language_dayatemi_sgui = {
     }
 }
 
+### dergi ###
+DI_language_dergi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_dergi
+        }
+    }
+}
+
+### dezhunic ###
+DI_language_dezhunic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_dezhunic
+        }
+    }
+}
+
+### drimniak ###
+DI_language_drimniak_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_drimniak
+        }
+    }
+}
+
+### dubadin ###
+DI_language_dubadin_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_dubadin
+        }
+    }
+}
+
 ### easterner ###
 DI_language_easterner_sgui = {
     scope = character # Player Character
@@ -2127,6 +2244,45 @@ DI_language_easterner_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_easterner
+        }
+    }
+}
+
+### emanhi ###
+DI_language_emanhi_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_emanhi
+        }
+    }
+}
+
+### enynanthari ###
+DI_language_enynanthari_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_enynanthari
+        }
+    }
+}
+
+### eryriatic_islander ###
+DI_language_eryriatic_islander_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_eryriatic_islander
         }
     }
 }
@@ -2157,6 +2313,84 @@ DI_language_gallieni_sgui = {
     }
 }
 
+### gh_dragon ###
+DI_language_gh_dragon_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_gh_dragon
+        }
+    }
+}
+
+### goan ###
+DI_language_goan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_goan
+        }
+    }
+}
+
+### guillater ###
+DI_language_guillater_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_guillater
+        }
+    }
+}
+
+### hadiyan ###
+DI_language_hadiyan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_hadiyan
+        }
+    }
+}
+
+### haraja ###
+DI_language_haraja_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_haraja
+        }
+    }
+}
+
+### hixite ###
+DI_language_hixite_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_hixite
+        }
+    }
+}
+
 ### huegodoc ###
 DI_language_huegodoc_sgui = {
     scope = character # Player Character
@@ -2166,6 +2400,58 @@ DI_language_huegodoc_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_huegodoc
+        }
+    }
+}
+
+### iseni ###
+DI_language_iseni_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_iseni
+        }
+    }
+}
+
+### itomka ###
+DI_language_itomka_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_itomka
+        }
+    }
+}
+
+### jureon ###
+DI_language_jureon_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_jureon
+        }
+    }
+}
+
+### kardwen ###
+DI_language_kardwen_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kardwen
         }
     }
 }
@@ -2196,19 +2482,6 @@ DI_language_kelthiunai_sgui = {
     }
 }
 
-### kharadamantian ###
-DI_language_kharadamantian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_kharadamantian
-        }
-    }
-}
-
 ### kemsari ###
 DI_language_kemsari_sgui = {
     scope = character # Player Character
@@ -2218,6 +2491,45 @@ DI_language_kemsari_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_kemsari
+        }
+    }
+}
+
+### kevaali ###
+DI_language_kevaali_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kevaali
+        }
+    }
+}
+
+### khalai ###
+DI_language_khalai_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_khalai
+        }
+    }
+}
+
+### kharadamantian ###
+DI_language_kharadamantian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kharadamantian
         }
     }
 }
@@ -2248,6 +2560,32 @@ DI_language_khokhuud_sgui = {
     }
 }
 
+### kholmvolki ###
+DI_language_kholmvolki_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kholmvolki
+        }
+    }
+}
+
+### kikarsag ###
+DI_language_kikarsag_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kikarsag
+        }
+    }
+}
+
 ### konijkmener ###
 DI_language_konijkmener_sgui = {
     scope = character # Player Character
@@ -2257,6 +2595,32 @@ DI_language_konijkmener_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_konijkmener
+        }
+    }
+}
+
+### koshar ###
+DI_language_koshar_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_koshar
+        }
+    }
+}
+
+### lattic ###
+DI_language_lattic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_lattic
         }
     }
 }
@@ -2274,6 +2638,32 @@ DI_language_likarkho_sgui = {
     }
 }
 
+### linhvuong ###
+DI_language_linhvuong_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_linhvuong
+        }
+    }
+}
+
+### luskosvai ###
+DI_language_luskosvai_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_luskosvai
+        }
+    }
+}
+
 ### madikirib ###
 DI_language_madikirib_sgui = {
     scope = character # Player Character
@@ -2283,6 +2673,71 @@ DI_language_madikirib_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_madikirib
+        }
+    }
+}
+
+### marcher ###
+DI_language_marcher_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_marcher
+        }
+    }
+}
+
+### margur ###
+DI_language_margur_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_margur
+        }
+    }
+}
+
+### marmaladid ###
+DI_language_marmaladid_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_marmaladid
+        }
+    }
+}
+
+### marndeoticeni ###
+DI_language_marndeoticeni_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_marndeoticeni
+        }
+    }
+}
+
+### mond ###
+DI_language_mond_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_mond
         }
     }
 }
@@ -2300,6 +2755,84 @@ DI_language_mondecny_sgui = {
     }
 }
 
+### mtuwe ###
+DI_language_mtuwe_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_mtuwe
+        }
+    }
+}
+
+### mutande ###
+DI_language_mutande_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_mutande
+        }
+    }
+}
+
+### nakahanii ###
+DI_language_nakahanii_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_nakahanii
+        }
+    }
+}
+
+### narodlek ###
+DI_language_narodlek_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_narodlek
+        }
+    }
+}
+
+### nattanan ###
+DI_language_nattanan_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_nattanan
+        }
+    }
+}
+
+### nihare ###
+DI_language_nihare_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_nihare
+        }
+    }
+}
+
 ### oghainos ###
 DI_language_oghainos_sgui = {
     scope = character # Player Character
@@ -2313,6 +2846,58 @@ DI_language_oghainos_sgui = {
     }
 }
 
+### ojyczayn ###
+DI_language_ojyczayn_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_ojyczayn
+        }
+    }
+}
+
+### ordikin ###
+DI_language_ordikin_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_ordikin
+        }
+    }
+}
+
+### ouwabadin ###
+DI_language_ouwabadin_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_ouwabadin
+        }
+    }
+}
+
+### partic ###
+DI_language_partic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_partic
+        }
+    }
+}
+
 ### redlander ###
 DI_language_redlander_sgui = {
     scope = character # Player Character
@@ -2322,6 +2907,71 @@ DI_language_redlander_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_redlander
+        }
+    }
+}
+
+### rekhala ###
+DI_language_rekhala_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_rekhala
+        }
+    }
+}
+
+### rekvolki ###
+DI_language_rekvolki_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_rekvolki
+        }
+    }
+}
+
+### rivarisian ###
+DI_language_rivarisian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_rivarisian
+        }
+    }
+}
+
+### sagadavian ###
+DI_language_sagadavian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_sagadavian
+        }
+    }
+}
+
+### saielaian ###
+DI_language_saielaian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_saielaian
         }
     }
 }
@@ -2352,136 +3002,6 @@ DI_language_saradari_sgui = {
     }
 }
 
-### sarridian ###
-DI_language_sarridian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_sarridian
-        }
-    }
-}
-
-### shamrania ###
-DI_language_shamrania_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_shamrania
-        }
-    }
-}
-
-### takopara ###
-DI_language_takopara_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_takopara
-        }
-    }
-}
-
-### theugombrian ###
-DI_language_theugombrian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_theugombrian
-        }
-    }
-}
-
-### tlakalak ###
-DI_language_tlakalak_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_tlakalak
-        }
-    }
-}
-
-### veparstva ###
-DI_language_veparstva_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_veparstva
-        }
-    }
-}
-
-### xajirkel ###
-DI_language_xajirkel_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_xajirkel
-        }
-    }
-}
-
-### zanaumaures ###
-DI_language_zanaumaures_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_zanaumaures
-        }
-    }
-}
-
-### haraja ###
-DI_language_haraja_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_haraja
-        }
-    }
-}
-
-### kevaali ###
-DI_language_kevaali_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_kevaali
-        }
-    }
-}
-
 ### sarminian ###
 DI_language_sarminian_sgui = {
     scope = character # Player Character
@@ -2495,392 +3015,28 @@ DI_language_sarminian_sgui = {
     }
 }
 
-### nakahanii ###
-DI_language_nakahanii_sgui = {
+### sarridian ###
+DI_language_sarridian_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_nakahanii
+            set_culture_pillar = language_sarridian
         }
     }
 }
 
-### khalai ###
-DI_language_khalai_sgui = {
+### sarth ###
+DI_language_sarth_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_khalai
-        }
-    }
-}
-
-### adhata ###
-DI_language_adhata_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_adhata
-        }
-    }
-}
-
-### amaghvelian ###
-DI_language_amaghvelian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_amaghvelian
-        }
-    }
-}
-
-### tsetnera ###
-DI_language_tsetnera_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_tsetnera
-        }
-    }
-}
-
-### aygaeri ###
-DI_language_aygaeri_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_aygaeri
-        }
-    }
-}
-
-### emanhi ###
-DI_language_emanhi_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_emanhi
-        }
-    }
-}
-
-### luskosvai ###
-DI_language_luskosvai_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_luskosvai
-        }
-    }
-}
-
-### asariyna ###
-DI_language_asariyna_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_asariyna
-        }
-    }
-}
-
-### aembarisa ###
-DI_language_aembarisa_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_aembarisa
-        }
-    }
-}
-
-### zonthawa ###
-DI_language_zonthawa_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_zonthawa
-        }
-    }
-}
-
-### margur ###
-DI_language_margur_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_margur
-        }
-    }
-}
-
-### sunakari ###
-DI_language_sunakari_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_sunakari
-        }
-    }
-}
-
-### astilik ###
-DI_language_astilik_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_astilik
-        }
-    }
-}
-
-### warmic ###
-DI_language_warmic_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_warmic
-        }
-    }
-}
-
-### lattic ###
-DI_language_lattic_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_lattic
-        }
-    }
-}
-
-### yylaxxaz ###
-DI_language_yylaxxaz_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_yylaxxaz
-        }
-    }
-}
-
-### drimniak ###
-DI_language_drimniak_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_drimniak
-        }
-    }
-}
-
-### yevamarai ###
-DI_language_yevamarai_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_yevamarai
-        }
-    }
-}
-
-### hadiyan ###
-DI_language_hadiyan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_hadiyan
-        }
-    }
-}
-
-### tiemanam ###
-DI_language_tiemanam_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_tiemanam
-        }
-    }
-}
-
-### varnigitiai ###
-DI_language_varnigitiai_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_varnigitiai
-        }
-    }
-}
-
-### dubadin ###
-DI_language_dubadin_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_dubadin
-        }
-    }
-}
-
-### saielaian ###
-DI_language_saielaian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_saielaian
-        }
-    }
-}
-
-### dergi ###
-DI_language_dergi_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_dergi
-        }
-    }
-}
-
-### enynanthari ###
-DI_language_enynanthari_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_enynanthari
-        }
-    }
-}
-
-### iseni ###
-DI_language_iseni_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_iseni
-        }
-    }
-}
-
-### marndeoticeni ###
-DI_language_marndeoticeni_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_marndeoticeni
-        }
-    }
-}
-
-### wasteland ###
-DI_language_wasteland_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_wasteland
-        }
-    }
-}
-
-### mtuwe ###
-DI_language_mtuwe_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_mtuwe
+            set_culture_pillar = language_sarth
         }
     }
 }
@@ -2898,210 +3054,93 @@ DI_language_sceyfish_sgui = {
     }
 }
 
-### nihare ###
-DI_language_nihare_sgui = {
+### shamrania ###
+DI_language_shamrania_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_nihare
+            set_culture_pillar = language_shamrania
         }
     }
 }
 
-### bricotaves ###
-DI_language_bricotaves_sgui = {
+### shanxi ###
+DI_language_shanxi_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_bricotaves
+            set_culture_pillar = language_shanxi
         }
     }
 }
 
-### ardothanes ###
-DI_language_ardothanes_sgui = {
+### siral ###
+DI_language_siral_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_ardothanes
+            set_culture_pillar = language_siral
         }
     }
 }
 
-### ordikin ###
-DI_language_ordikin_sgui = {
+### skoronyk ###
+DI_language_skoronyk_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_ordikin
+            set_culture_pillar = language_skoronyk
         }
     }
 }
 
-### corvosnari ###
-DI_language_corvosnari_sgui = {
+### sunakari ###
+DI_language_sunakari_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_corvosnari
+            set_culture_pillar = language_sunakari
         }
     }
 }
 
-### ouwabadin ###
-DI_language_ouwabadin_sgui = {
+### sycharceg ###
+DI_language_sycharceg_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_ouwabadin
+            set_culture_pillar = language_sycharceg
         }
     }
 }
 
-### ashkeschi ###
-DI_language_ashkeschi_sgui = {
+### takopara ###
+DI_language_takopara_sgui = {
     scope = character # Player Character
 
     effect = {
         save_scope_as = player_character
 
         var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_ashkeschi
-        }
-    }
-}
-
-### dadkawji ###
-DI_language_dadkawji_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_dadkawji
-        }
-    }
-}
-
-### sagadavian ###
-DI_language_sagadavian_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_sagadavian
-        }
-    }
-}
-
-### narodlek ###
-DI_language_narodlek_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_narodlek
-        }
-    }
-}
-
-### aelfir ###
-DI_language_aelfir_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_aelfir
-        }
-    }
-}
-
-### gh_dragon ###
-DI_language_gh_dragon_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_gh_dragon
-        }
-    }
-}
-
-### aupfovla ###
-DI_language_aupfovla_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_aupfovla
-        }
-    }
-}
-
-### nattanan ###
-DI_language_nattanan_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_nattanan
-        }
-    }
-}
-
-### dakari ###
-DI_language_dakari_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_dakari
-        }
-    }
-}
-
-### azargi ###
-DI_language_azargi_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_azargi
+            set_culture_pillar = language_takopara
         }
     }
 }
@@ -3115,6 +3154,474 @@ DI_language_talareg_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_talareg
+        }
+    }
+}
+
+### talome ###
+DI_language_talome_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_talome
+        }
+    }
+}
+
+### thalite ###
+DI_language_thalite_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_thalite
+        }
+    }
+}
+
+### theugombrian ###
+DI_language_theugombrian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_theugombrian
+        }
+    }
+}
+
+### thyssaen ###
+DI_language_thyssaen_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_thyssaen
+        }
+    }
+}
+
+### tiemanam ###
+DI_language_tiemanam_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_tiemanam
+        }
+    }
+}
+
+### tlakalak ###
+DI_language_tlakalak_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_tlakalak
+        }
+    }
+}
+
+### tsetnera ###
+DI_language_tsetnera_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_tsetnera
+        }
+    }
+}
+
+### varnigitiai ###
+DI_language_varnigitiai_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_varnigitiai
+        }
+    }
+}
+
+### veparstva ###
+DI_language_veparstva_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_veparstva
+        }
+    }
+}
+
+### vespartsva ###
+DI_language_vespartsva_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_vespartsva
+        }
+    }
+}
+
+### vhanavid ###
+DI_language_vhanavid_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_vhanavid
+        }
+    }
+}
+
+### warmic ###
+DI_language_warmic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_warmic
+        }
+    }
+}
+
+### wasteland ###
+DI_language_wasteland_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_wasteland
+        }
+    }
+}
+
+### xajirkel ###
+DI_language_xajirkel_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_xajirkel
+        }
+    }
+}
+
+### yevamarai ###
+DI_language_yevamarai_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_yevamarai
+        }
+    }
+}
+
+### yylaxxaz ###
+DI_language_yylaxxaz_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_yylaxxaz
+        }
+    }
+}
+
+### zanaumaures ###
+DI_language_zanaumaures_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_zanaumaures
+        }
+    }
+}
+
+### zonthawa ###
+DI_language_zonthawa_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_zonthawa
+        }
+    }
+}
+
+### high_ethyllic ###
+DI_language_high_ethyllic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_high_ethyllic
+        }
+    }
+}
+
+### kalavonic ###
+DI_language_kalavonic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kalavonic
+        }
+    }
+}
+
+### kartharaddic ###
+DI_language_kartharaddic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kartharaddic
+        }
+    }
+}
+
+### naexanaxic ###
+DI_language_naexanaxic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_naexanaxic
+        }
+    }
+}
+
+### middle_imperial ###
+DI_language_middle_imperial_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_middle_imperial
+        }
+    }
+}
+
+### aversarian ###
+DI_language_aversarian_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_aversarian
+        }
+    }
+}
+
+### anoteric ###
+DI_language_anoteric_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_anoteric
+        }
+    }
+}
+
+### aironattic ###
+DI_language_aironattic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_aironattic
+        }
+    }
+}
+
+### opakhasiatic_imperial ###
+DI_language_opakhasiatic_imperial_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_opakhasiatic_imperial
+        }
+    }
+}
+
+### etapexe ###
+DI_language_etapexe_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_etapexe
+        }
+    }
+}
+
+### tegonic ###
+DI_language_tegonic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_tegonic
+        }
+    }
+}
+
+### kyrotic ###
+DI_language_kyrotic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_kyrotic
+        }
+    }
+}
+
+### verod ###
+DI_language_verod_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_verod
+        }
+    }
+}
+
+### bestial ###
+DI_language_bestial_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_bestial
+        }
+    }
+}
+
+### murnyri_abyssal ###
+DI_language_murnyri_abyssal_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_murnyri_abyssal
+        }
+    }
+}
+
+### eidolic ###
+DI_language_eidolic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_eidolic
+        }
+    }
+}
+
+### glossolic ###
+DI_language_glossolic_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_glossolic
+        }
+    }
+}
+
+### aeriform ###
+DI_language_aeriform_sgui = {
+    scope = character # Player Character
+
+    effect = {
+        save_scope_as = player_character
+
+        var:DI_innovation_selected_culture = {
+            set_culture_pillar = language_aeriform
         }
     }
 }
@@ -3141,19 +3648,6 @@ DI_language_voidglyphs_sgui = {
 
         var:DI_innovation_selected_culture = {
             set_culture_pillar = language_voidglyphs
-        }
-    }
-}
-
-### bestial ###
-DI_language_bestial_sgui = {
-    scope = character # Player Character
-
-    effect = {
-        save_scope_as = player_character
-
-        var:DI_innovation_selected_culture = {
-            set_culture_pillar = language_bestial
         }
     }
 }

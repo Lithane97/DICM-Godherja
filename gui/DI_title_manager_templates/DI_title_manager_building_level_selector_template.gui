@@ -123,11 +123,12 @@ template DI_TM_Building_Level_Selector_Template
 
             button_tab = {
                 size = { 42 32 }
-                alpha = 0
+                onclick = "[GetScriptedGui('DI_tm_select_building_level_9_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                down = "[GetScriptedGui('DI_tm_building_level_9_selected_sgui').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 
                 text_single = {
                     parentanchor = center
-                    raw_text = ""
+                    raw_text = "9"
                     default_format = "#low"
                 }
             }

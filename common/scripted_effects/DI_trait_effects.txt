@@ -44,6 +44,13 @@
                 value = $VALUE$
             }
         }
+        flag:governor = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = governor
+                value = $VALUE$
+            }
+        }
         flag:horse = {
             add_trait_xp = {
                 trait = $TRAIT$
@@ -188,6 +195,13 @@
             add_trait_xp = {
                 trait = $TRAIT$
                 track = marauder
+                value = $VALUE$
+            }
+        }
+        flag:otachedian_governor = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = otachedian_governor
                 value = $VALUE$
             }
         }

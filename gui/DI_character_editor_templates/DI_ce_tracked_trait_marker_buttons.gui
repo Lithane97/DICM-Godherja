@@ -69,6 +69,14 @@
             onclick = "[GetScriptedGui('DI_add_trait_xp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', Trait.MakeScope).AddScope('track', MakeScopeFlag('foot')).AddScope('xp', MakeScopeValue(TraitLevelTrackEntry.GetXpRequired)).End)]"
         }
 
+        # governor
+        DI_tracked_trait_marker_button = {
+            visible = "[EqualTo_string( TraitLevelTrack.GetName, Localize('trait_track_governor'))]"
+            datacontext = "[TraitLevelTrack.GetEntryForXp( ComplexBarItem.GetValue )]"
+            raw_text = "[TraitLevelTrackEntry.GetLevel]"
+            onclick = "[GetScriptedGui('DI_add_trait_xp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', Trait.MakeScope).AddScope('track', MakeScopeFlag('governor')).AddScope('xp', MakeScopeValue(TraitLevelTrackEntry.GetXpRequired)).End)]"
+        }
+
         # horse
         DI_tracked_trait_marker_button = {
             visible = "[EqualTo_string( TraitLevelTrack.GetName, Localize('trait_track_horse'))]"
@@ -235,6 +243,14 @@
             datacontext = "[TraitLevelTrack.GetEntryForXp( ComplexBarItem.GetValue )]"
             raw_text = "[TraitLevelTrackEntry.GetLevel]"
             onclick = "[GetScriptedGui('DI_add_trait_xp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', Trait.MakeScope).AddScope('track', MakeScopeFlag('marauder')).AddScope('xp', MakeScopeValue(TraitLevelTrackEntry.GetXpRequired)).End)]"
+        }
+
+        # otachedian_governor
+        DI_tracked_trait_marker_button = {
+            visible = "[EqualTo_string( TraitLevelTrack.GetName, Localize('trait_track_otachedian_governor'))]"
+            datacontext = "[TraitLevelTrack.GetEntryForXp( ComplexBarItem.GetValue )]"
+            raw_text = "[TraitLevelTrackEntry.GetLevel]"
+            onclick = "[GetScriptedGui('DI_add_trait_xp').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('trait', Trait.MakeScope).AddScope('track', MakeScopeFlag('otachedian_governor')).AddScope('xp', MakeScopeValue(TraitLevelTrackEntry.GetXpRequired)).End)]"
         }
 
         # poacher

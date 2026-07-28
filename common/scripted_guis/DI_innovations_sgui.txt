@@ -1223,6 +1223,292 @@ DI_culture_has_innovation_bronzecast = {
 	}
 }
 
+# innovation_beast_cavalry
+DI_remove_innovation_beast_cavalry = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_beast_cavalry
+		}
+	}
+}
+
+DI_add_innovation_beast_cavalry = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_beast_cavalry
+		}
+	}
+}
+
+DI_culture_has_innovation_beast_cavalry = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_beast_cavalry
+	}
+}
+
+# innovation_military_structure
+DI_remove_innovation_military_structure = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_military_structure
+		}
+	}
+}
+
+DI_add_innovation_military_structure = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_military_structure
+		}
+	}
+}
+
+DI_culture_has_innovation_military_structure = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_military_structure
+	}
+}
+
+# innovation_yamen_troops
+DI_remove_innovation_yamen_troops = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_yamen_troops
+		}
+	}
+}
+
+DI_add_innovation_yamen_troops = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_yamen_troops
+		}
+	}
+}
+
+DI_culture_has_innovation_yamen_troops = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_yamen_troops
+	}
+}
+
+# innovation_banners
+DI_remove_innovation_banners = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_banners
+		}
+	}
+}
+
+DI_add_innovation_banners = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_banners
+		}
+	}
+}
+
+DI_culture_has_innovation_banners = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_banners
+	}
+}
+
+# innovation_repeating_crossbow
+DI_remove_innovation_repeating_crossbow = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_repeating_crossbow
+		}
+	}
+}
+
+DI_add_innovation_repeating_crossbow = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_repeating_crossbow
+		}
+	}
+}
+
+DI_culture_has_innovation_repeating_crossbow = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_repeating_crossbow
+	}
+}
+
+# innovation_pole_vault
+DI_remove_innovation_pole_vault = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_pole_vault
+		}
+	}
+}
+
+DI_add_innovation_pole_vault = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_pole_vault
+		}
+	}
+}
+
+DI_culture_has_innovation_pole_vault = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_pole_vault
+	}
+}
+
+# innovation_alchemical_gunpowder
+DI_remove_innovation_alchemical_gunpowder = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_alchemical_gunpowder
+		}
+	}
+}
+
+DI_add_innovation_alchemical_gunpowder = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_alchemical_gunpowder
+		}
+	}
+}
+
+DI_culture_has_innovation_alchemical_gunpowder = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_alchemical_gunpowder
+	}
+}
+
+# innovation_heavy_siege_artillery
+DI_remove_innovation_heavy_siege_artillery = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_heavy_siege_artillery
+		}
+	}
+}
+
+DI_add_innovation_heavy_siege_artillery = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_heavy_siege_artillery
+		}
+	}
+}
+
+DI_culture_has_innovation_heavy_siege_artillery = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_heavy_siege_artillery
+	}
+}
+
+# innovation_specialized_banners_unit
+DI_remove_innovation_specialized_banners_unit = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_specialized_banners_unit
+		}
+	}
+}
+
+DI_add_innovation_specialized_banners_unit = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_specialized_banners_unit
+		}
+	}
+}
+
+DI_culture_has_innovation_specialized_banners_unit = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_specialized_banners_unit
+	}
+}
+
+# innovation_lihuo
+DI_remove_innovation_lihuo = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_lihuo
+		}
+	}
+}
+
+DI_add_innovation_lihuo = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_lihuo
+		}
+	}
+}
+
+DI_culture_has_innovation_lihuo = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_lihuo
+	}
+}
+
+# innovation_clanlander_resilience
+DI_remove_innovation_clanlander_resilience = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_clanlander_resilience
+		}
+	}
+}
+
+DI_add_innovation_clanlander_resilience = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_clanlander_resilience
+		}
+	}
+}
+
+DI_culture_has_innovation_clanlander_resilience = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_clanlander_resilience
+	}
+}
+
 # innovation_battlements
 DI_remove_innovation_battlements = {
 	scope = character
@@ -2029,6 +2315,58 @@ DI_culture_has_innovation_currency_03 = {
 	}
 }
 
+# innovation_seigneurialism
+DI_remove_innovation_seigneurialism = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_seigneurialism
+		}
+	}
+}
+
+DI_add_innovation_seigneurialism = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_seigneurialism
+		}
+	}
+}
+
+DI_culture_has_innovation_seigneurialism = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_seigneurialism
+	}
+}
+
+# innovation_muladi
+DI_remove_innovation_muladi = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_muladi
+		}
+	}
+}
+
+DI_add_innovation_muladi = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_muladi
+		}
+	}
+}
+
+DI_culture_has_innovation_muladi = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_muladi
+	}
+}
+
 # innovation_machicolations
 DI_remove_innovation_machicolations = {
 	scope = character
@@ -2055,29 +2393,29 @@ DI_culture_has_innovation_machicolations = {
 	}
 }
 
-# innovation_bombard
-DI_remove_innovation_bombard = {
+# innovation_gunpowder
+DI_remove_innovation_gunpowder = {
 	scope = character
 	effect = {
 		var:DI_innovation_selected_culture = {
-			remove_innovation = innovation_bombard
+			remove_innovation = innovation_gunpowder
 		}
 	}
 }
 
-DI_add_innovation_bombard = {
+DI_add_innovation_gunpowder = {
 	scope = character
 	effect = {
 		var:DI_innovation_selected_culture = {
-			add_innovation = innovation_bombard
+			add_innovation = innovation_gunpowder
 		}
 	}
 }
 
-DI_culture_has_innovation_bombard = {
+DI_culture_has_innovation_gunpowder = {
 	scope = culture
 	is_valid = {
-		has_innovation = innovation_bombard
+		has_innovation = innovation_gunpowder
 	}
 }
 
@@ -2991,6 +3329,188 @@ DI_culture_has_innovation_kashiryan_court_system = {
 	}
 }
 
+# innovation_fireworks
+DI_remove_innovation_fireworks = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_fireworks
+		}
+	}
+}
+
+DI_add_innovation_fireworks = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_fireworks
+		}
+	}
+}
+
+DI_culture_has_innovation_fireworks = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_fireworks
+	}
+}
+
+# innovation_wuizu
+DI_remove_innovation_wuizu = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_wuizu
+		}
+	}
+}
+
+DI_add_innovation_wuizu = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_wuizu
+		}
+	}
+}
+
+DI_culture_has_innovation_wuizu = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_wuizu
+	}
+}
+
+# innovation_waterbending
+DI_remove_innovation_waterbending = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_waterbending
+		}
+	}
+}
+
+DI_add_innovation_waterbending = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_waterbending
+		}
+	}
+}
+
+DI_culture_has_innovation_waterbending = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_waterbending
+	}
+}
+
+# innovation_cave_dwelling
+DI_remove_innovation_cave_dwelling = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_cave_dwelling
+		}
+	}
+}
+
+DI_add_innovation_cave_dwelling = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_cave_dwelling
+		}
+	}
+}
+
+DI_culture_has_innovation_cave_dwelling = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_cave_dwelling
+	}
+}
+
+# innovation_sifang_boulevard
+DI_remove_innovation_sifang_boulevard = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_sifang_boulevard
+		}
+	}
+}
+
+DI_add_innovation_sifang_boulevard = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_sifang_boulevard
+		}
+	}
+}
+
+DI_culture_has_innovation_sifang_boulevard = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_sifang_boulevard
+	}
+}
+
+# innovation_xuegong
+DI_remove_innovation_xuegong = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_xuegong
+		}
+	}
+}
+
+DI_add_innovation_xuegong = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_xuegong
+		}
+	}
+}
+
+DI_culture_has_innovation_xuegong = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_xuegong
+	}
+}
+
+# innovation_mayik_underground_husbandry
+DI_remove_innovation_mayik_underground_husbandry = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_mayik_underground_husbandry
+		}
+	}
+}
+
+DI_add_innovation_mayik_underground_husbandry = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_mayik_underground_husbandry
+		}
+	}
+}
+
+DI_culture_has_innovation_mayik_underground_husbandry = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_mayik_underground_husbandry
+	}
+}
+
 # innovation_magi_steel
 DI_remove_innovation_magi_steel = {
 	scope = character
@@ -3040,6 +3560,110 @@ DI_culture_has_innovation_high_medieval_magic = {
 	scope = culture
 	is_valid = {
 		has_innovation = innovation_high_medieval_magic
+	}
+}
+
+# innovation_silver_note
+DI_remove_innovation_silver_note = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_silver_note
+		}
+	}
+}
+
+DI_add_innovation_silver_note = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_silver_note
+		}
+	}
+}
+
+DI_culture_has_innovation_silver_note = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_silver_note
+	}
+}
+
+# innovation_commercial_court
+DI_remove_innovation_commercial_court = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_commercial_court
+		}
+	}
+}
+
+DI_add_innovation_commercial_court = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_commercial_court
+		}
+	}
+}
+
+DI_culture_has_innovation_commercial_court = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_commercial_court
+	}
+}
+
+# innovation_protectorate_system
+DI_remove_innovation_protectorate_system = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_protectorate_system
+		}
+	}
+}
+
+DI_add_innovation_protectorate_system = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_protectorate_system
+		}
+	}
+}
+
+DI_culture_has_innovation_protectorate_system = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_protectorate_system
+	}
+}
+
+# innovation_mayik_undergrowth_mastery
+DI_remove_innovation_mayik_undergrowth_mastery = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_mayik_undergrowth_mastery
+		}
+	}
+}
+
+DI_add_innovation_mayik_undergrowth_mastery = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_mayik_undergrowth_mastery
+		}
+	}
+}
+
+DI_culture_has_innovation_mayik_undergrowth_mastery = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_mayik_undergrowth_mastery
 	}
 }
 
@@ -3144,6 +3768,32 @@ DI_culture_has_innovation_korlacan_metallurgy = {
 	scope = culture
 	is_valid = {
 		has_innovation = innovation_korlacan_metallurgy
+	}
+}
+
+# innovation_mayik_deep_engineering
+DI_remove_innovation_mayik_deep_engineering = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_mayik_deep_engineering
+		}
+	}
+}
+
+DI_add_innovation_mayik_deep_engineering = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_mayik_deep_engineering
+		}
+	}
+}
+
+DI_culture_has_innovation_mayik_deep_engineering = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_mayik_deep_engineering
 	}
 }
 
@@ -3641,6 +4291,32 @@ DI_culture_has_innovation_spiritskin = {
 	}
 }
 
+# innovation_sandskiff_lore
+DI_remove_innovation_sandskiff_lore = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_sandskiff_lore
+		}
+	}
+}
+
+DI_add_innovation_sandskiff_lore = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_sandskiff_lore
+		}
+	}
+}
+
+DI_culture_has_innovation_sandskiff_lore = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_sandskiff_lore
+	}
+}
+
 # innovation_adventurers
 DI_remove_innovation_adventurers = {
 	scope = character
@@ -3846,6 +4522,214 @@ DI_culture_has_innovation_aaimperon_cultivation = {
 	scope = culture
 	is_valid = {
 		has_innovation = innovation_aaimperon_cultivation
+	}
+}
+
+# innovation_agricultural_calendar
+DI_remove_innovation_agricultural_calendar = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_agricultural_calendar
+		}
+	}
+}
+
+DI_add_innovation_agricultural_calendar = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_agricultural_calendar
+		}
+	}
+}
+
+DI_culture_has_innovation_agricultural_calendar = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_agricultural_calendar
+	}
+}
+
+# innovation_tilolan_system
+DI_remove_innovation_tilolan_system = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_tilolan_system
+		}
+	}
+}
+
+DI_add_innovation_tilolan_system = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_tilolan_system
+		}
+	}
+}
+
+DI_culture_has_innovation_tilolan_system = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_tilolan_system
+	}
+}
+
+# innovation_changlu_army
+DI_remove_innovation_changlu_army = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_changlu_army
+		}
+	}
+}
+
+DI_add_innovation_changlu_army = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_changlu_army
+		}
+	}
+}
+
+DI_culture_has_innovation_changlu_army = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_changlu_army
+	}
+}
+
+# innovation_kathunkai_infantry_tactics
+DI_remove_innovation_kathunkai_infantry_tactics = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_kathunkai_infantry_tactics
+		}
+	}
+}
+
+DI_add_innovation_kathunkai_infantry_tactics = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_kathunkai_infantry_tactics
+		}
+	}
+}
+
+DI_culture_has_innovation_kathunkai_infantry_tactics = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_kathunkai_infantry_tactics
+	}
+}
+
+# innovation_vidvaookeyatran_scholars
+DI_remove_innovation_vidvaookeyatran_scholars = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_vidvaookeyatran_scholars
+		}
+	}
+}
+
+DI_add_innovation_vidvaookeyatran_scholars = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_vidvaookeyatran_scholars
+		}
+	}
+}
+
+DI_culture_has_innovation_vidvaookeyatran_scholars = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_vidvaookeyatran_scholars
+	}
+}
+
+# innovation_chinlin_elephant_training_technique
+DI_remove_innovation_chinlin_elephant_training_technique = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_chinlin_elephant_training_technique
+		}
+	}
+}
+
+DI_add_innovation_chinlin_elephant_training_technique = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_chinlin_elephant_training_technique
+		}
+	}
+}
+
+DI_culture_has_innovation_chinlin_elephant_training_technique = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_chinlin_elephant_training_technique
+	}
+}
+
+# innovation_night_vision_potion
+DI_remove_innovation_night_vision_potion = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_night_vision_potion
+		}
+	}
+}
+
+DI_add_innovation_night_vision_potion = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_night_vision_potion
+		}
+	}
+}
+
+DI_culture_has_innovation_night_vision_potion = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_night_vision_potion
+	}
+}
+
+# innovation_mayik_glowmoss_cultivation
+DI_remove_innovation_mayik_glowmoss_cultivation = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			remove_innovation = innovation_mayik_glowmoss_cultivation
+		}
+	}
+}
+
+DI_add_innovation_mayik_glowmoss_cultivation = {
+	scope = character
+	effect = {
+		var:DI_innovation_selected_culture = {
+			add_innovation = innovation_mayik_glowmoss_cultivation
+		}
+	}
+}
+
+DI_culture_has_innovation_mayik_glowmoss_cultivation = {
+	scope = culture
+	is_valid = {
+		has_innovation = innovation_mayik_glowmoss_cultivation
 	}
 }
 
@@ -4288,31 +5172,5 @@ DI_culture_has_innovation_waterworks = {
 	scope = culture
 	is_valid = {
 		has_innovation = innovation_waterworks
-	}
-}
-
-# innovation_tiefutu
-DI_remove_innovation_tiefutu = {
-	scope = character
-	effect = {
-		var:DI_innovation_selected_culture = {
-			remove_innovation = innovation_tiefutu
-		}
-	}
-}
-
-DI_add_innovation_tiefutu = {
-	scope = character
-	effect = {
-		var:DI_innovation_selected_culture = {
-			add_innovation = innovation_tiefutu
-		}
-	}
-}
-
-DI_culture_has_innovation_tiefutu = {
-	scope = culture
-	is_valid = {
-		has_innovation = innovation_tiefutu
 	}
 }

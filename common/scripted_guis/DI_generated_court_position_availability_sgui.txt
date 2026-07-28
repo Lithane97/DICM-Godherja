@@ -4,12 +4,6 @@ DI_court_position_available = {
     is_valid = {
         switch = {
             trigger = scope:court_position_type
-            court_position_type:akolouthos_court_position = {
-                OR = {
-                    has_dlc_feature = roads_to_power
-                    has_dlc_feature = royal_court
-                }
-            }
             court_position_type:archer_captain_camp_officer = {
                 has_dlc_feature = roads_to_power
             }
@@ -52,11 +46,17 @@ DI_court_position_available = {
             court_position_type:court_brahmin_court_position = {
                 has_dlc_feature = all_under_heaven
             }
+            court_position_type:court_gaffer_court_position = {
+                has_dlc_feature = royal_court
+            }
             court_position_type:court_guru_court_position = {
                 has_dlc_feature = all_under_heaven
             }
             court_position_type:court_poet_court_position = {
-                has_dlc_feature = royal_court
+                OR = {
+                    has_dlc_feature = all_under_heaven
+                    has_dlc_feature = royal_court
+                }
             }
             court_position_type:court_scholar_court_position = {
                 has_dlc_feature = legacy_of_persia

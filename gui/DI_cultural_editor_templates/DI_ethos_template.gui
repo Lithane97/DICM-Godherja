@@ -109,6 +109,20 @@ template DI_ethos_template
             }
         }
 
+        # sorcerous
+        DI_widget_martial_pillar_item = {
+            blockoverride "datacontext"
+            {
+                datacontext = "[GetCulturePillar('ethos_sorcerous')]"
+                datacontext = "[GetPlayer.GetCulture]"
+            }
+
+            blockoverride "onclick"
+            {
+                onclick = "[GetScriptedGui('DI_ethos_sorcerous_sgui').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
         ### ETHOS END ###
         ###############
     }

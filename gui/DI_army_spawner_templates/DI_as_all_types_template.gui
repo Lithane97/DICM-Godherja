@@ -32,6 +32,26 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('mulaththamun')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_mulaththamun_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('guanch_vaulter')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_guanch_vaulter_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('light_footmen')]"
 
             blockoverride "on_add" {
@@ -120,10 +140,34 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('handgunners')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_handgunners_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('house_guard')]"
 
             blockoverride "on_add" {
                 onclick = "[GetScriptedGui('DI_house_guard_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('pikemen_militia')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_pikemen_militia_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
             }
         }
 
@@ -236,6 +280,18 @@ template DI_AS_All_Types
 
             blockoverride "on_add" {
                 onclick = "[GetScriptedGui('DI_accolade_maa_horse_archers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_handgunners')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_handgunners_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
             }
         }
 
@@ -444,14 +500,6 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('tiefutu')]"
-
-            blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_tiefutu_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-            }
-        }
-
-        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('burenjia')]"
 
             blockoverride "on_add" {
@@ -500,10 +548,14 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('sjalvolki_waymakers')]"
+            datacontext = "[GetMenAtArmsType('shamans')]"
 
             blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_sjalvolki_waymakers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                onclick = "[GetScriptedGui('DI_shamans_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
             }
         }
 
@@ -516,6 +568,14 @@ template DI_AS_All_Types
 
             blockoverride "visible_when" {
                 visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('sjalvolki_waymakers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_sjalvolki_waymakers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
         }
 
@@ -1108,6 +1168,98 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('lujian')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_lujian_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('tetukor')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_tetukor_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('kathuni_tetukor')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_kathuni_tetukor_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('yamen_troops')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_yamen_troops_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('ding')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_ding_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('qibing')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_qibing_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('chinlin_iron_elephant')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_chinlin_iron_elephant_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('guoren_fire_lancers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_guoren_fire_lancers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('green_watchers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_green_watchers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('owl_men')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_owl_men_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('spirit_regular')]"
 
             blockoverride "on_add" {
@@ -1192,6 +1344,58 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('cavern_ram')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_cavern_ram_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('tension_trebuchet')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_tension_trebuchet_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('jarifin_lancers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_jarifin_lancers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('kharazadim_footmen')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_kharazadim_footmen_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('sarathem_magi')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_sarathem_magi_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('safri_archers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_safri_archers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('adventurers')]"
 
             blockoverride "on_add" {
@@ -1224,6 +1428,26 @@ template DI_AS_All_Types
 
             blockoverride "visible_when" {
                 visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('beetle_rider')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_beetle_rider_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('beetle_knight')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_beetle_knight_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
         }
 
@@ -1360,6 +1584,42 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('dragonriders')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_dragonriders_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('cultists_maa')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_cultists_maa_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('raving_zealots')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_raving_zealots_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('arcane_auxiliaries')]"
 
             blockoverride "on_add" {
@@ -1376,30 +1636,6 @@ template DI_AS_All_Types
 
             blockoverride "on_add" {
                 onclick = "[GetScriptedGui('DI_partic_seers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-            }
-
-            blockoverride "visible_when" {
-                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
-            }
-        }
-
-        DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('redland_cultists')]"
-
-            blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_redland_cultists_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-            }
-
-            blockoverride "visible_when" {
-                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
-            }
-        }
-
-        DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('voidhosts')]"
-
-            blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_voidhosts_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "visible_when" {
@@ -1448,6 +1684,42 @@ template DI_AS_All_Types
 
             blockoverride "on_add" {
                 onclick = "[GetScriptedGui('DI_markwardens_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('sandsingers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_sandsingers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('redland_cultists')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_redland_cultists_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('willing_acolytes')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_willing_acolytes_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "visible_when" {
@@ -1780,6 +2052,62 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('woodland_hydra')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_woodland_hydra_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('war_hounds')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_war_hounds_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('maples_marauders')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_maples_marauders_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('nascent_shadehosts')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_nascent_shadehosts_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('manifestations_of_fear')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_manifestations_of_fear_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('chasm_terrors')]"
 
             blockoverride "on_add" {
@@ -1792,46 +2120,10 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('enfleshed_grotesquerie')]"
-
-            blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_enfleshed_grotesquerie_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-            }
-
-            blockoverride "visible_when" {
-                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
-            }
-        }
-
-        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('lesser_voidspawns')]"
 
             blockoverride "on_add" {
                 onclick = "[GetScriptedGui('DI_lesser_voidspawns_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-            }
-
-            blockoverride "visible_when" {
-                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
-            }
-        }
-
-        DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('archonarachs')]"
-
-            blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_archonarachs_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-            }
-
-            blockoverride "visible_when" {
-                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
-            }
-        }
-
-        DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('blade_tendrils')]"
-
-            blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_blade_tendrils_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "visible_when" {
@@ -1864,6 +2156,50 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('living_pits')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_living_pits_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('archonarachs')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_archonarachs_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('spider_jockeys')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_spider_jockeys_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('blade_tendrils')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_blade_tendrils_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
             datacontext = "[GetMenAtArmsType('night_gaunts')]"
 
             blockoverride "on_add" {
@@ -1876,10 +2212,10 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('woodland_hydra')]"
+            datacontext = "[GetMenAtArmsType('voidhosts')]"
 
             blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_woodland_hydra_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                onclick = "[GetScriptedGui('DI_voidhosts_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "visible_when" {
@@ -1888,22 +2224,10 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('war_hounds')]"
+            datacontext = "[GetMenAtArmsType('enfleshed_grotesquerie')]"
 
             blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_war_hounds_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-            }
-
-            blockoverride "visible_when" {
-                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
-            }
-        }
-
-        DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('maples_marauders')]"
-
-            blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_maples_marauders_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                onclick = "[GetScriptedGui('DI_enfleshed_grotesquerie_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "visible_when" {
@@ -2096,10 +2420,22 @@ template DI_AS_All_Types
         }
 
         DI_army_spawner_vbox = {
-            datacontext = "[GetMenAtArmsType('accolade_maa_mammothiers')]"
+            datacontext = "[GetMenAtArmsType('accolade_maa_charioteers')]"
 
             blockoverride "on_add" {
-                onclick = "[GetScriptedGui('DI_accolade_maa_mammothiers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+                onclick = "[GetScriptedGui('DI_accolade_maa_charioteers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_mammotheers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_mammotheers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "visible_when" {
@@ -2112,6 +2448,90 @@ template DI_AS_All_Types
 
             blockoverride "on_add" {
                 onclick = "[GetScriptedGui('DI_accolade_maa_magi_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_anti_magi')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_anti_magi_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_silencers')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_silencers_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_war_mastiffs')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_war_mastiffs_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_war_lions')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_war_lions_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_owlbears')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_owlbears_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_bottled_oozes')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_bottled_oozes_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+            }
+
+            blockoverride "visible_when" {
+                visible = "[GetVariableSystem.HasValue('army_spawner_tab', 'other')]"
+            }
+        }
+
+        DI_army_spawner_vbox = {
+            datacontext = "[GetMenAtArmsType('accolade_maa_pseudodragons')]"
+
+            blockoverride "on_add" {
+                onclick = "[GetScriptedGui('DI_accolade_maa_pseudodragons_effect').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
             }
 
             blockoverride "visible_when" {
