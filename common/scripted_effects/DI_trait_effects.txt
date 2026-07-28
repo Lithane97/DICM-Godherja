@@ -1,0 +1,236 @@
+﻿DI_add_trait_xp = {
+    switch = {
+        trigger = $TRACK$
+
+        flag:bandit = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = bandit
+                value = $VALUE$
+            }
+        }
+        flag:beasthunter = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = beasthunter
+                value = $VALUE$
+            }
+        }
+        flag:bow = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = bow
+                value = $VALUE$
+            }
+        }
+        flag:danger = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = danger
+                value = $VALUE$
+            }
+        }
+        flag:falconer = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = falconer
+                value = $VALUE$
+            }
+        }
+        flag:foot = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = foot
+                value = $VALUE$
+            }
+        }
+        flag:horse = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = horse
+                value = $VALUE$
+            }
+        }
+        flag:hunter = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = hunter
+                value = $VALUE$
+            }
+        }
+        flag:magical_air = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_air
+                value = $VALUE$
+            }
+        }
+        flag:magical_blood = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_blood
+                value = $VALUE$
+            }
+        }
+        flag:magical_celestial = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_celestial
+                value = $VALUE$
+            }
+        }
+        flag:magical_dark = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_dark
+                value = $VALUE$
+            }
+        }
+        flag:magical_dawn = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_dawn
+                value = $VALUE$
+            }
+        }
+        flag:magical_death = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_death
+                value = $VALUE$
+            }
+        }
+        flag:magical_dream = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_dream
+                value = $VALUE$
+            }
+        }
+        flag:magical_ethereal = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_ethereal
+                value = $VALUE$
+            }
+        }
+        flag:magical_fire = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_fire
+                value = $VALUE$
+            }
+        }
+        flag:magical_hymns = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_hymns
+                value = $VALUE$
+            }
+        }
+        flag:magical_ice = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_ice
+                value = $VALUE$
+            }
+        }
+        flag:magical_light = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_light
+                value = $VALUE$
+            }
+        }
+        flag:magical_metal = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_metal
+                value = $VALUE$
+            }
+        }
+        flag:magical_nature = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_nature
+                value = $VALUE$
+            }
+        }
+        flag:magical_sand = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_sand
+                value = $VALUE$
+            }
+        }
+        flag:magical_stone = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_stone
+                value = $VALUE$
+            }
+        }
+        flag:magical_time = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_time
+                value = $VALUE$
+            }
+        }
+        flag:magical_water = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = magical_water
+                value = $VALUE$
+            }
+        }
+        flag:marauder = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = marauder
+                value = $VALUE$
+            }
+        }
+        flag:poacher = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = poacher
+                value = $VALUE$
+            }
+        }
+        flag:thief = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = thief
+                value = $VALUE$
+            }
+        }
+        flag:travel = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = travel
+                value = $VALUE$
+            }
+        }
+        flag:trickster = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = trickster
+                value = $VALUE$
+            }
+        }
+        flag:wit = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                track = wit
+                value = $VALUE$
+            }
+        }
+        fallback = {
+            add_trait_xp = {
+                trait = $TRAIT$
+                value = $VALUE$
+            }
+        }
+    }
+}
