@@ -3,6 +3,11 @@
     monthly_adventure_lifestyle_xp_gain_mult = -10
 }
 
+no_lifestyle_arcana = {
+    icon = social_positive
+    monthly_arcana_lifestyle_xp_gain_mult = -10
+}
+
 no_lifestyle_diplomacy = {
     icon = diplomacy_positive
     monthly_diplomacy_lifestyle_xp_gain_mult = -10

@@ -44,19 +44,19 @@
     },
     "common/scripted_effects/DI_lifestyle_present_effects.txt": {
       "kind": "generated",
-      "last_written_hash": "23688d51ecca9b05ef034f4843536364d2f6de0952244466b5588bdd329073de"
+      "last_written_hash": "bacc43d29d408645d67d7eadc8fecd951ed4b68e634f04e3249a264a013d2be0"
     },
     "gui/DI_character_editor_templates/DI_ce_lifestyle_presents_template.gui": {
       "kind": "generated",
-      "last_written_hash": "dfd46714f8113d018ea8e2998f40df7126ac9ce4ede356c0210ea021d0bd5af1"
+      "last_written_hash": "b0272c429c8ea36a4e4277f87c4689340bae0b552b54c7770369a850a6055c5f"
     },
     "common/modifiers/DI_lifestyle_present_modifiers.txt": {
       "kind": "generated",
-      "last_written_hash": "978e42479d2259574eb7958fedcad1c776a0c0c272e329831b5db7c0ddce8291"
+      "last_written_hash": "0ef9355801cd1f184ae77e15a01af06eaf458bdc8731933c35bdd7de22d04e4e"
     },
     "common/scripted_guis/DI_char_editor_lifestyle_present_sgui.txt": {
       "kind": "generated",
-      "last_written_hash": "3bb6f76ab21094c3ea79bf23d8996ad9e33bb487b5eda4f9294a8979493c8657"
+      "last_written_hash": "7c7084879bd092b6a2440cbc6aadc14c75bafe6c37440a15a008f347bbf9b10d"
     },
     "common/scripted_guis/DI_cultural_editor_pillars_sgui.txt": {
       "kind": "generated",

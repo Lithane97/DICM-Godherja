@@ -46,6 +46,74 @@ DI_lifestyle_adventure_present_no_effect = {
     remove_character_modifier = no_lifestyle_adventure
 }
 
+DI_lifestyle_arcana_present_effect = {
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk1_tree1 } } add_perk = arcana_actuation_perk1_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk2_tree1 } } add_perk = arcana_actuation_perk2_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk3_tree1 } } add_perk = arcana_actuation_perk3_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk4_tree1 } } add_perk = arcana_actuation_perk4_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk5_tree1 } } add_perk = arcana_actuation_perk5_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk6_tree1 } } add_perk = arcana_actuation_perk6_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk7_tree1 } } add_perk = arcana_actuation_perk7_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk8_tree1 } } add_perk = arcana_actuation_perk8_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_actuation_perk9_tree1 } } add_perk = arcana_actuation_perk9_tree1 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk1_tree2 } } add_perk = arcana_cognition_perk1_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk2_tree2 } } add_perk = arcana_cognition_perk2_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk3_tree2 } } add_perk = arcana_cognition_perk3_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk4_tree2 } } add_perk = arcana_cognition_perk4_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk5_tree2 } } add_perk = arcana_cognition_perk5_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk6_tree2 } } add_perk = arcana_cognition_perk6_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk7_tree2 } } add_perk = arcana_cognition_perk7_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk8_tree2 } } add_perk = arcana_cognition_perk8_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_cognition_perk9_tree2 } } add_perk = arcana_cognition_perk9_tree2 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk1_tree3 } } add_perk = arcana_erudition_perk1_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk2_tree3 } } add_perk = arcana_erudition_perk2_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk3_tree3 } } add_perk = arcana_erudition_perk3_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk4_tree3 } } add_perk = arcana_erudition_perk4_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk5_tree3 } } add_perk = arcana_erudition_perk5_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk6_tree3 } } add_perk = arcana_erudition_perk6_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk7_tree3 } } add_perk = arcana_erudition_perk7_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk8_tree3 } } add_perk = arcana_erudition_perk8_tree3 }
+    if = { limit = { NOT = { has_perk = arcana_erudition_perk9_tree3 } } add_perk = arcana_erudition_perk9_tree3 }
+    add_character_modifier = {
+        modifier = no_lifestyle_arcana
+        days = -1
+    }
+}
+
+DI_lifestyle_arcana_present_no_effect = {
+    if = { limit = { has_perk = arcana_actuation_perk1_tree1 } remove_perk = arcana_actuation_perk1_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk2_tree1 } remove_perk = arcana_actuation_perk2_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk3_tree1 } remove_perk = arcana_actuation_perk3_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk4_tree1 } remove_perk = arcana_actuation_perk4_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk5_tree1 } remove_perk = arcana_actuation_perk5_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk6_tree1 } remove_perk = arcana_actuation_perk6_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk7_tree1 } remove_perk = arcana_actuation_perk7_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk8_tree1 } remove_perk = arcana_actuation_perk8_tree1 }
+    if = { limit = { has_perk = arcana_actuation_perk9_tree1 } remove_perk = arcana_actuation_perk9_tree1 }
+    if = { limit = { has_perk = arcana_cognition_perk1_tree2 } remove_perk = arcana_cognition_perk1_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk2_tree2 } remove_perk = arcana_cognition_perk2_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk3_tree2 } remove_perk = arcana_cognition_perk3_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk4_tree2 } remove_perk = arcana_cognition_perk4_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk5_tree2 } remove_perk = arcana_cognition_perk5_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk6_tree2 } remove_perk = arcana_cognition_perk6_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk7_tree2 } remove_perk = arcana_cognition_perk7_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk8_tree2 } remove_perk = arcana_cognition_perk8_tree2 }
+    if = { limit = { has_perk = arcana_cognition_perk9_tree2 } remove_perk = arcana_cognition_perk9_tree2 }
+    if = { limit = { has_perk = arcana_erudition_perk1_tree3 } remove_perk = arcana_erudition_perk1_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk2_tree3 } remove_perk = arcana_erudition_perk2_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk3_tree3 } remove_perk = arcana_erudition_perk3_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk4_tree3 } remove_perk = arcana_erudition_perk4_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk5_tree3 } remove_perk = arcana_erudition_perk5_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk6_tree3 } remove_perk = arcana_erudition_perk6_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk7_tree3 } remove_perk = arcana_erudition_perk7_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk8_tree3 } remove_perk = arcana_erudition_perk8_tree3 }
+    if = { limit = { has_perk = arcana_erudition_perk9_tree3 } remove_perk = arcana_erudition_perk9_tree3 }
+    remove_trait = gh_arcanist
+    remove_trait = gh_sage
+    remove_trait = gh_transmuturgist
+    remove_character_modifier = no_lifestyle_arcana
+}
+
 DI_lifestyle_diplomacy_present_effect = {
     if = { limit = { NOT = { has_perk = a_life_of_glory_perk } } add_perk = a_life_of_glory_perk }
     if = { limit = { NOT = { has_perk = accomplished_forger_perk } } add_perk = accomplished_forger_perk }
