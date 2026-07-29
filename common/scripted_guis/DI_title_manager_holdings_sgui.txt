@@ -273,3 +273,632 @@ DI_set_holding_type_sgui = {
         }
     }
 }
+
+DI_load_province_dropdown = {
+    scope = character # Player Character
+
+    is_valid = {
+        OR = {
+            NOT = { has_global_variable_list = DI_province_filter_choices }
+            NOT = { has_global_variable = DI_province_filters_a8aadb7d94bc_loaded }
+        }
+    }
+
+    effect = {
+        save_scope_as = player
+
+        clear_global_variable_list = DI_province_filter_choices
+        set_global_variable = DI_province_filters_a8aadb7d94bc_loaded
+
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:all }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:hide }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:capital }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_castle_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_city_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_church_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_tribal_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_colony_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_herder_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_metro_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_necropolis_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_nomad_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_ruin_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_ruined_district_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_temple_citadel_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:DI_holding_filter_wasteland_empty_holding }
+        add_to_global_variable_list = { name = DI_province_filter_choices target = flag:empty }
+    }
+}
+
+DI_apply_province_filter_choice = {
+    scope = character # Player Character
+
+    saved_scopes = {
+        filter_choice # Filter choice to apply
+    }
+
+    effect = {
+        save_scope_as = player
+
+        if = {
+            limit = { scope:filter_choice = flag:all }
+
+            if = {
+                limit = { has_variable_list = DI_action_provinces }
+                clear_variable_list = DI_action_provinces
+            }
+            else = {
+                every_in_list = {
+                    variable = DI_selected_titles_provinces
+                    save_scope_as = province
+                    scope:player = {
+                        add_to_variable_list = {
+                            name = DI_action_provinces
+                            target = scope:province
+                        }
+                    }
+                }
+
+                if = {
+                    limit = { has_variable = DI_provinces_hide }
+                    clear_variable_list = DI_shown_provinces
+                    every_in_list = {
+                        variable = DI_selected_titles_provinces
+                        save_scope_as = province
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_shown_provinces
+                                target = scope:province
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:hide }
+
+            if = {
+                limit = { has_variable_list = DI_action_provinces }
+                clear_variable_list = DI_shown_provinces
+
+                if = {
+                    limit = { has_variable = DI_provinces_hide }
+                    remove_variable = DI_provinces_hide
+                    every_in_list = {
+                        variable = DI_selected_titles_provinces
+                        save_scope_as = province
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_shown_provinces
+                                target = scope:province
+                            }
+                        }
+                    }
+                }
+                else = {
+                    set_variable = DI_provinces_hide
+                    every_in_list = {
+                        variable = DI_action_provinces
+                        save_scope_as = province
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_shown_provinces
+                                target = scope:province
+                            }
+                        }
+                    }
+                }
+            }
+            else = {
+                if = {
+                    limit = { has_variable = DI_provinces_hide }
+                    remove_variable = DI_provinces_hide
+                    clear_variable_list = DI_shown_provinces
+                    every_in_list = {
+                        variable = DI_selected_titles_provinces
+                        save_scope_as = province
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_shown_provinces
+                                target = scope:province
+                            }
+                        }
+                    }
+                }
+                else = {
+                    every_in_list = {
+                        variable = DI_selected_titles_provinces
+                        save_scope_as = province
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_shown_provinces
+                                target = scope:province
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:capital }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { is_county_capital = yes }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_castle_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = castle_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_city_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = city_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_church_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = church_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_tribal_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = tribal_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_colony_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = colony_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_herder_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = herder_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_metro_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = metro_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_necropolis_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = necropolis_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_nomad_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = nomad_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_ruin_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = ruin_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_ruined_district_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = ruined_district_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_temple_citadel_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = temple_citadel_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:DI_holding_filter_wasteland_empty_holding }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding_type = wasteland_empty_holding }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = { scope:filter_choice = flag:empty }
+            clear_variable_list = DI_action_provinces
+            if = {
+                limit = { has_variable = DI_provinces_hide }
+                clear_variable_list = DI_shown_provinces
+            }
+
+            every_in_list = {
+                variable = DI_selected_titles_provinces
+                save_scope_as = province
+
+                scope:province = {
+                    if = {
+                        limit = { has_holding = no }
+                        scope:player = {
+                            add_to_variable_list = {
+                                name = DI_action_provinces
+                                target = scope:province
+                            }
+                            if = {
+                                limit = { has_variable = DI_provinces_hide }
+                                add_to_variable_list = {
+                                    name = DI_shown_provinces
+                                    target = scope:province
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
