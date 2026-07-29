@@ -658,7 +658,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_colony_building"
+                    text = "local_holding_type_capitalized_colony_holding"
                     default_format = "#low"
                     }
             }
@@ -725,7 +725,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_herder_camp_01"
+                    text = "local_holding_type_capitalized_herder_holding"
                     default_format = "#low"
                     }
             }
@@ -812,7 +812,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_metro_01"
+                    text = "local_holding_type_capitalized_metro_holding"
                     default_format = "#low"
                     }
             }
@@ -1159,7 +1159,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_necropolis_01"
+                    text = "local_holding_type_capitalized_necropolis_holding"
                     default_format = "#low"
                     }
             }
@@ -1226,7 +1226,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_nomadic_camp_01"
+                    text = "local_holding_type_capitalized_nomad_holding"
                     default_format = "#low"
                     }
             }
@@ -1293,7 +1293,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_ruin_01"
+                    text = "local_holding_type_capitalized_ruin_holding"
                     default_format = "#low"
                     }
             }
@@ -1360,7 +1360,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_ruined_district_01"
+                    text = "local_holding_type_capitalized_ruined_district_holding"
                     default_format = "#low"
                     }
             }
@@ -1427,7 +1427,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_temple_citadel_01"
+                    text = "local_holding_type_capitalized_temple_citadel_holding"
                     default_format = "#low"
                     }
             }
@@ -1554,7 +1554,7 @@ template DI_TM_Building_List_Template
                 text_single = {
                     parentanchor = left|vcenter
                     margin_left = 8
-                    text = "building_type_empty_building"
+                    text = "local_holding_type_capitalized_wasteland_empty_holding"
                     default_format = "#low"
                     }
             }

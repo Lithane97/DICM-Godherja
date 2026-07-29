@@ -85,7 +85,7 @@
     },
     "gui/DI_title_manager_templates/DI_title_manager_building_list_template.gui": {
       "kind": "generated",
-      "last_written_hash": "54391035d840c776f47e939eabc32780164197d62c4144e86dd3f0ac4a370091"
+      "last_written_hash": "835e5c89715b27e7fd7df0c7415c39c96163f0301823c328b76ee0fd629de7cc"
     },
     "gui/DI_title_manager_templates/DI_title_manager_building_level_selector_template.gui": {
       "kind": "generated",
@@ -93,7 +93,7 @@
     },
     "common/scripted_guis/DI_title_manager_buildings_sgui.txt": {
       "kind": "generated",
-      "last_written_hash": "4ad98aa247a0b5c60aa9ba6b83e6ef5c1336443b3a34f69ae1161e969ed8f435"
+      "last_written_hash": "03c7bb6dad7103238aaad8cad185830976fee3ef679fc737b6f24dfdc858c67f"
     },
     "localization/english/gui/DI_building_categories_l_english.yml": {
       "kind": "generated",
@@ -208,6 +208,14 @@
     "localization/spanish/gui/DI_court_position_categories_l_spanish.yml": {
       "kind": "generated",
       "last_written_hash": "462b0c4a8bc5542e0f703d3b626b28a14e0f0d60035be883f2dbe16744a2729e"
+    },
+    "gui/DI_title_manager_templates/DI_title_manager_holding_type_list_template.gui": {
+      "kind": "generated",
+      "last_written_hash": "eb4c6b237da7f11d200e10fcdbe5dae1e36f1de612f2ab0bcc4361e4d19eb360"
+    },
+    "common/scripted_guis/DI_title_manager_holdings_sgui.txt": {
+      "kind": "generated",
+      "last_written_hash": "8419b5a86b2054f9052247146d8eefd5c105547b6d54e5a0eb118686c2ce7ee6"
     }
   }
 }
